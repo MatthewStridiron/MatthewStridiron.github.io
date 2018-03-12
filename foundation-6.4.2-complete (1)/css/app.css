@@ -1,0 +1,200 @@
+  /* Misc */
+
+  * {
+    margin:0;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .wrap {
+    width:95%;
+    margin:auto;
+  }
+
+
+
+  /* nav */
+
+  .top-bar {
+    padding: 0% 2.5%;
+    background-image: url("../Images/real_cf_@2X.png");
+
+  }
+
+  .top-bar-right ul {
+    background-color:transparent;
+  }
+
+  .top-bar-right a {
+  color:white;
+  font-weight: bold;
+  }
+
+  .top-bar h3 {
+    font-family:'Abril Fatface', cursive;
+  }
+
+  .nav {
+    background-color:red;
+  }
+
+  /* orbit */
+
+  .orbit{
+    background-image: url("../Images/carbon_fibre_@2X.png");
+  }
+
+  .orbit-image {
+    max-height: 33.4em;
+  }
+  .orbit-image-2 {
+    width: 50%;
+    max-width: 50%;
+    margin: 0 25%;
+    max-height: 33.4em;
+  }
+  /* main */
+
+  .main {
+    background-color: #e5e7e8;
+  }
+  .main h1 {
+  color:black;
+  font-family: 'Abril Fatface', cursive;
+  }
+
+  .main p {
+    font-family: 'Palanquin', sans-serif;
+    color:black;
+    font-size: 1.4em;
+  }
+
+  .main a {
+    color:red;
+  }
+
+
+
+
+  .grid-x {
+    padding: 2em 2em;
+  }
+
+  .cell
+  {
+    padding:0em 1em;
+  }
+
+
+  .hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 33%;
+	height: auto;
+}
+.hvrbox img {
+	width: 100%;
+	max-height: 16em;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: .8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 0;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 3em;
+	display: inline-block;
+	position: absolute;
+  font-family: 'Abril Fatface', cursive;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	text-align: center;
+	font-size: 1em;
+	display: inline-block;
+	position: absolute;
+  font-family: 'Abril Fatface', cursive;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+
+  /* photos */
+
+  .photosection {
+  }
+
+
+
+
+  /* footer */
+
+  .footer {
+      background-image: url("../Images/real_cf_@2X.png");
+      text-align: center;
+    }
+
+    .footer h3 {
+      font-family: 'Abril Fatface', cursive;
+      color:red;
+    }
+
+    .footer a {
+      color: white;
+      font-family: 'Arial', sans-serif;;
+    }
+
+    .footer img {
+      height: 4em;
+      width: 4em;
+    }
+
+  .footer p {
+    font-family: 'Arial', sans-serif;
+  }
+
+a:hover {
+  color:red;
+}
+
+   .contact-text:hover {
+    color:rgb(94, 0, 0);
+  }

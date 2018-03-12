@@ -1,0 +1,27 @@
+
+      * {
+        font-family: 'Cursive';
+        color:white;
+      }
+      body {
+      background-color: #05131E;
+      }
+
+      #rectangle {
+      border: 5px black solid;
+      background-color: #0C460C;
+      margin-left:auto;
+      margin-right:auto;
+      }
+
+      a {
+        color:white;
+      }
+
+      a:hover {
+        color:orange;
+      }
+
+      p {
+        font-size:125%;
+      }
